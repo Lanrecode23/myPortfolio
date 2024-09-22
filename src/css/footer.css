@@ -1,0 +1,5 @@
+.footer_content p{
+    background-image: url(/img/wave.svg);
+    background-size: cover;
+    width: 100%;
+}

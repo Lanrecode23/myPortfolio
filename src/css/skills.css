@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Macondo&family=Patrick+Hand&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.wrapper {
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.welcome_container{
+    padding: 10em 38rem!important;
+}
+.skills_text h3{
+    margin-top: 3em!important;
+    font-weight: 600;
+    color: #000533;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    left: 15%;
+    transform-origin: 50%;
+    animation: circle7124 .5s alternate infinite ease;
+}
+
+@keyframes circle7124 {
+    0% {
+        top: 60px;
+        height: 5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+
+    40% {
+        height: 20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+
+    100% {
+        top: 0%;
+    }
+}
+
+.circle:nth-child(2) {
+    left: 45%;
+    animation-delay: .2s;
+}
+
+.circle:nth-child(3) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+}
+
+.shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left: 15%;
+    filter: blur(1px);
+    animation: shadow046 .5s alternate infinite ease;
+}
+
+@keyframes shadow046 {
+    0% {
+        transform: scaleX(1.5);
+    }
+
+    40% {
+        transform: scaleX(1);
+        opacity: .7;
+    }
+
+    100% {
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+
+.shadow:nth-child(4) {
+    left: 45%;
+    animation-delay: .2s
+}
+
+.shadow:nth-child(5) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+}
+
+.welcome_inner .welcome_img {
+    background: #eeeeee;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.welcome_inner .welcome_img img {
+    margin-top: -30px;
+}
+
+.welcome_text {
+    margin-top: 26px;
+}
+
+.welcome_text h4 {
+    color: #222222;
+    font-size: 32px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.welcome_text p {
+    max-width: 495px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000533;
+    font-family: "lato", sans-serif;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.wel_item {
+    border: 1px solid #eeeeee;
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+
+.wel_item i {
+    font-size: 24px;
+    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wel_item h4 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #222222;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.wel_item p {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+.tools_expert {
+    box-shadow: 0px 8px 30px 0px rgba(65, 64, 64, 0.1);
+    padding: 50px 35px;
+}
+
+.tools_expert h3 {
+    color: #222222;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.tools_expert .skill_main .skill_item {
+    margin-bottom: 18px;
+}
+
+.tools_expert .skill_main .skill_item:last-child {
+    margin-bottom: 0px;
+}
+
+.tools_expert .skill_main .skill_item h4 {
+    text-align: right;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+.tools_expert .skill_main .skill_item .progress {
+    height: 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #eeeeee;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.2);
+}
+
+.tools_expert .skill_main .skill_item .html .progress-bar {
+    width: 90%;
+    transition: width .6s ease;
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+    background-image: -moz-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -webkit-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -ms-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+
+}
+.tools_expert .skill_main .skill_item .css .progress-bar {
+    width: 85%;
+    transition: width .6s ease;
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+    background-image: -moz-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -webkit-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -ms-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+}
+.tools_expert .skill_main .skill_item .js .progress-bar {
+    width: 76%;
+    transition: width .6s ease;
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+    background-image: -moz-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -webkit-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -ms-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+}
+.tools_expert .skill_main .skill_item .react .progress-bar {
+    width: 71%;
+    transition: width .6s ease;
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;
+    background-image: -moz-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -webkit-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+    background-image: -ms-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
+}
+
+@media screen  and (max-width: 576px) {
+    .welcome_container{
+        padding: 0em 0rem!important;
+    }
+    .welcome_text h4 {
+        font-size: 28px;
+        margin-top: -1em;
+    }
+    
+    .welcome_text p {
+        max-width: 495px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        font-weight: 500;
+        color: #000533;
+        font-family: "lato", sans-serif;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .welcome_container{
+        padding: 5em 10rem!important;
+    }
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+.hero_section{
+    background: #000000 !important;
+    padding: 6rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column!important;
+}
+.img-fluid{
+    width: 50rem!important;
+    height: 30rem!important;
+}
+.hero-content h1 {
+    margin-top: 3em !important;
+    font-size: 45px !important;
+    margin-bottom: 2rem !important;
+    letter-spacing: 0.8px !important;
+    color: #fff!important;
+    font-family: "Asap", sans-serif !important;
+    color: rgb(0, 25, 71);
+}
+
+
+.hero-content .typed {
+    margin-bottom: 2em !important;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.8px !important;
+    height: 60px   !important; 
+    overflow: hidden !important;
+}
+.typing .dev-software {
+    color: #fff!important;
+    font-size: 34px!important;
+    font-weight: 500!important;
+  }
+  
+ .typing  .dev-front-end {
+    color: #FFD700 !important;
+    font-size: 34px!important;
+    font-weight: 500!important;
+  }
+  
+ .typing  .dev-researcher {
+    color: #fff !important;
+    font-size: 34px!important;
+    font-weight: 500!important;
+  }
+  
+.Download-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 12px 20px;
+    color: #000000;
+    font-weight: 600;
+    background: #FFD700;
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em rgba(59, 48, 78, 0.527);
+    letter-spacing: 0.05em;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .Download-button svg {
+    margin-right: 8px;
+    width: 25px;
+  }
+  
+  .Download-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em rgba(88, 71, 116, 0.627);
+  }
+  
+  .Download-button:active {
+    box-shadow: 0 0.3em 1em -0.5em rgba(88, 71, 116, 0.627);
+  }
+  
+  .Download-button::before {
+    content: "";
+    width: 4px;
+    height: 40%;
+    background-color: #fff;
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 0;
+    transition: all 0.2s;
+  }
+  
+  .Download-button::after {
+    content: "";
+    width: 4px;
+    height: 40%;
+    background-color: #fff;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right: 0;
+    transition: all 0.2s;
+  }
+  
+  .Download-button:hover::before,
+  .Download-button:hover::after {
+    height: 60%;
+  }
+
+  @media screen and (max-width: 576px) {
+    .hero_section{
+      padding: 2rem !important;
+      justify-content: center!important;
+      align-items: center!important;
+      flex-direction: column-reverse!important;
+  }
+  .img-fluid{
+      width: 50rem!important;
+      height: 30rem!important;
+      margin-top: -6rem!important;
+      margin-bottom: 3rem!important;
+  }
+  .hero-content h1 {
+      margin-top: 3em !important;
+      font-size: 30px !important;
+      margin-bottom: 1.4rem !important;
+      line-height: 1.7 !important;
+      letter-spacing: 0.8px !important;
+  }
+  
+  .hero-content .typed {
+      margin-bottom: -3em !important;
+      font-size: 6px !important;
+      line-height: 1.5 !important;
+      letter-spacing: 0.8px !important;
+      height: 100px   !important; 
+      overflow: hidden !important;
+  }
+  .typing .dev-software , .typing  .dev-front-end, .typing  .dev-researcher{
+    font-size: 24px!important;
+    font-weight: 500!important;
+    margin-bottom: 0rem!important;
+  }
+  .Download-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 12px 10px!important;
+    margin-top: 0rem!important;
+  }
+  .img-fluid{
+    width: 30rem!important;
+    height: 30rem!important;
+}
+  }
+  
+  
