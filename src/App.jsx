@@ -2,6 +2,7 @@
 import './App.css'
 import About from './components/About'
 import Details from './components/Details'
+import NotFound from './components/NotFound'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Home from './Home/Home'
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
     </>

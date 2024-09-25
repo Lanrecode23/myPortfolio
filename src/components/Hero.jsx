@@ -12,7 +12,7 @@ function Hero() {
                         </h1>
                         <div className='typed'><TypedText /></div>
                     </div>
-                    <section id='resumw'>
+                    <section id='resume'>
                         <button class="Download-button">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

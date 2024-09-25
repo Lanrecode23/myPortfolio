@@ -1,0 +1,10 @@
+.notFound_img img{
+    height: 20rem! important;
+    width: 20rem! important;
+}
+.notFOund_container{
+    padding:8rem! important;
+}
+.notFound_img{
+    margin: auto!important;
+}

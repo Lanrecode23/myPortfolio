@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .details_container{
-    background: #f5f4f4;
+    background: #f5f3f3;
     padding: 8rem!important;
     margin-bottom: -5rem!important;
 }
@@ -29,10 +29,11 @@
     justify-content: flex-start;
     gap: 10px;
     background-color:  #FFD700;
-    border-radius: 30px;
+    border-radius: 25px;
     color: rgb(19, 19, 19);
     font-weight: 600;
     border: none;
+    font-family: "Lato", sans-serif !important;
     position: relative;
     cursor: pointer;
     transition-duration: .2s;
@@ -51,7 +52,7 @@
   }
   
   .button:hover {
-    background-color:  #FFD700;
+    background-color:  #f2cf08;
     transition-duration: .5s;
   }
   

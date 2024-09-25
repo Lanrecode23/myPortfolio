@@ -8,8 +8,9 @@
 }
 
 .nav-link {
-    font-size: 1.08em !important;
+    font-size: 1em !important;
     font-weight: 600;
+    font-family: "Lato", sans-serif !important;
 }
 
 
