@@ -14,7 +14,7 @@ function Skills() {
     }, []);
 
     return (
-        <>
+        <section id='skills'>
             <div className="skills_text text-center mt-3">
                 <h3>Skills</h3>
             </div>
@@ -115,7 +115,7 @@ function Skills() {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 

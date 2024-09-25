@@ -18,7 +18,7 @@ function Header() {
                         <Nav className="m-auto">
                             <Nav.Link as={Link} to= "/" className='header_nav '>Home</Nav.Link>
                             <Nav.Link href='#about'  className='header_nav '>About</Nav.Link>
-                            <Nav.Link href="#pr" className='header_nav '>Resume</Nav.Link>
+                            <Nav.Link href="#resume" className='header_nav '>Resume</Nav.Link>
                             <Nav.Link href="#skills" className='header_nav '> Skills</Nav.Link>
                             <Nav.Link href="#projects" className='header_nav '>Projects</Nav.Link>
                         </Nav>
