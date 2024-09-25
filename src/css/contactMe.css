@@ -1,0 +1,29 @@
+.contact-section {
+    padding: 40px 0;
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

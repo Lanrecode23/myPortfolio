@@ -14,7 +14,7 @@ function Projects() {
                 {Data.map((project) => (
                     <div key={project.id} className="col-md-3 mb-3 mb-sm-0">
                         <div className="card" data-aos="fade-up" data-aos-duration="10000">
-                            <img src={project.img} alt='' className="card-img" />
+                        <Link to={`/details/${project.id}`}><img src={project.img} alt='' className="card-img" /></Link>
                             <div className="card-info">
                                 <p className="text-title">{project.title}</p>
                                 <p className="text-body">{project.techStack}</p>

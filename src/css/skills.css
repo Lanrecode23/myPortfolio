@@ -12,9 +12,11 @@
     padding: 10em 38rem!important;
 }
 .skills_text h3{
-    margin-top: 3em!important;
+    margin: 3em 0 0.5em 0!important;
     font-weight: 600;
     color: #000533;
+    font-family: "Asap", sans-serif !important;
+    font-size: 2.3rem;
 }
 .circle {
     width: 20px;
@@ -245,6 +247,77 @@
     background-image: -ms-linear-gradient(0deg, #FFD700  0%, #FFD700  100%);
 }
 
+
+.cards {
+    width: 20rem;
+    height: 24rem;
+    margin: 0 auto;
+    background-color: #011522;
+    border-radius: 8px;
+    padding: 20px ;
+    z-index: 1;
+   }
+   .skills_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 14rem;
+   }
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circles {
+    padding: 0 4px;
+   }
+
+   .card__content{
+    text-align: center;
+   }
+   
+   .card__content svg{
+    color: #FFD700;
+    margin: auto;
+    width: 40px;
+   }
+   .card__content h4{
+    text-align: center;
+    margin-top: 0.2em;
+    color: #fff;
+    font-family: "Asap", sans-serif !important;
+   }
+   .card__content p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: -10rem;
+    margin-top: 1em;
+    width: 18rem;
+    font-family: "lato", sans-serif!important;
+   }
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+   
 @media screen  and (max-width: 576px) {
     .welcome_container{
         padding: 0em 0rem!important;
