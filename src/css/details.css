@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .details_container{
-    background: #f5f3f3;
-    padding: 8rem!important;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    padding: 5rem 4rem 10rem 4rem!important;
     margin-bottom: -5rem!important;
 }
 
  .detail_header h3, .Display_details h2{
     font-family: "Asap", sans-serif !important;
 }
+
 .Display_details p{
     font-family: "Lato", sans-serif !important;
     font-weight: 500;

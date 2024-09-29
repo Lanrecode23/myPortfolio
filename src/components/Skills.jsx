@@ -15,12 +15,12 @@ function Skills() {
 
     return (
         <section id='skills'>
-            <div className="skills_text text-center mt-3">
-                <h3>Skills</h3>
+            <div className="skills_text text-center mt-3" >
+                <h3 >Skills</h3>
             </div>
             <div className="skills_container">
                 {/* First Card - Technical Skills */}
-                <div class="cards">
+                <div class="cards" data-aos="zoom-in">
                     <div class="tools">
                         <div class="circles">
                             <span class="red box"></span>
@@ -52,7 +52,7 @@ function Skills() {
                 </div>
 
                 {/* Second Card - Soft Skills */}
-                <div class="cards">
+                <div class="cards" data-aos="zoom-in">
                     <div class="tools">
                         <div class="circles">
                             <span class="red box"></span>
@@ -84,7 +84,7 @@ function Skills() {
                 </div>
 
                 {/* Third Card - Collaboration */}
-                <div class="cards">
+                <div class="cards" data-aos="zoom-in">
                     <div class="tools">
                         <div class="circles">
                             <span class="red box"></span>
