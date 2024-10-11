@@ -1,25 +1,36 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useParams } from 'react-router-dom'
 import Data from '../../public/Data'
 import Header from './Header'
 import '../css/details.css'
 import Footer from './Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Details() {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+            once: true,
+            offset: 200,
+            delay: 50,
+        });
+    }, []);
     const { id } = useParams()
     const myProject = Data.find((data) => data.id === parseInt(id))
     return (
         <>
             <Header />
+            <div className="project_detailPage text-center">
+                <h3>Project Details&nbsp;/&nbsp;<span><Link to="/" id='linkHome'>Home</Link></span></h3>
+            </div>
             <div className="container-fluid details_container p-5">
-                <div className="detail_header mb-5">
-                    <h3>Project Details</h3>
-                </div>
-                <div className="row row-cols-4">
-                    <div className="col-md-4 image">
+                <div className="row row-cols-8">
+                    <div className="col-md-4 image" data-aos="zoom-in-up">
                         <img src={myProject.img} alt={myProject.title} className="img-fluid" />
                     </div>
-                    <div className="col-md-6 mt-5 Display_details">
+                    <div className="col-md-6 mt-5 Display_details" data-aos="zoom-in">
                         <h2>{myProject.title}</h2>
                         <p>{myProject.details}</p>
                         <a href={myProject.link} target='_blank'>

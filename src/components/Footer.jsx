@@ -62,7 +62,7 @@ function Footer() {
           </li>
         </ul>
         <div className="foot_text">
-          <p>&copy; {new Date().getFullYear()}&nbsp;&nbsp;M.soft.&nbsp;All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()}&nbsp;&nbsp;m.soft.❤️&nbsp; All rights reserved.</p>
         </div>
       </div>
     </footer>
