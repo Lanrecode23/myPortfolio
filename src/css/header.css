@@ -1,5 +1,5 @@
 .navbar {
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+    background-image: radial-gradient(73% 147%, #dbd5d5 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
     background-blend-mode: screen;
 }
 
@@ -70,7 +70,7 @@ ul {
     height: 30px;
   }
   .example-2 .icon-content a:hover {
-    color: #2f2d2d;
+    color: #2e2c2c;
   }
   .example-2 .icon-content a .filled {
     position: absolute;

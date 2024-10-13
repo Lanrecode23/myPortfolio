@@ -17,27 +17,27 @@ function About() {
                 <h3>Tools Expertness</h3>
                 <div class="skill_main">
                   <div class="skill_item">
-                    <h4>Html <span class="counter">90</span>%</h4>
+                    <h4>Html <span class="counter">98</span>%</h4>
                     <div class="progress html">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                   <div class="skill_item">
-                    <h4>Css <span class="counter">85</span>%</h4>
+                    <h4>Css <span class="counter">95</span>%</h4>
                     <div class="progress css">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                   <div class="skill_item">
-                    <h4>Javascript <span class="counter">76</span>%</h4>
+                    <h4>Javascript <span class="counter">86</span>%</h4>
                     <div class="progress js">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                   <div class="skill_item">
-                    <h4>React <span class="counter">71</span>%</h4>
+                    <h4>React <span class="counter">79</span>%</h4>
                     <div class="progress react">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
