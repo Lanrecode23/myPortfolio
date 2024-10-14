@@ -114,11 +114,14 @@ svg {
 
 @media screen and (max-width:576px) {
     .card {
-        width: 18rem!important;
+        width: 16rem!important;
     }
     .project_container{
         justify-content: center!important;
         align-items: center!important;
         padding: 6em 2em!important;
+    }
+    .project_name{
+        font-size: 22px!important;
     }
 }
