@@ -124,4 +124,11 @@ svg {
     .project_name{
         font-size: 22px!important;
     }
+    .text-title {
+        font-weight: 700;
+        font-size: 1.05em;
+    }
+    .text-body{
+        font-size: 0.85em;
+    }
 }
