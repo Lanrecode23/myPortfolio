@@ -1,7 +1,7 @@
 import React from 'react';
-import Data from '../../public/Data';
 import '../css/projects.css';
 import { Link } from 'react-router-dom';
+import Data from '../../public/Data';
 
 
 function Projects() {
