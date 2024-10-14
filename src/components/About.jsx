@@ -4,7 +4,7 @@ function About() {
   return (
     <section id='about'>
       <section class="welcome_area p_120  mt-5">
-        <div class="container welcome_container mt-2 p-5">
+        <div class="container welcome_container mt-2 p-4">
           <div class="row welcome_inner">
             <div class="col-lg-6">
               <div class="welcome_text" data-aos="slide-right">
