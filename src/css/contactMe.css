@@ -27,3 +27,20 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.scroll_image img{
+    width: 80px!important;
+    height: 80px!important;
+    margin-top: 40px!important;
+    margin-right: 100px!important;
+    padding: 0em 0.1em;
+}
+
+@media screen and (max-width: 576px) {
+    .scroll_image img{
+        width: 50px!important;
+        height: 50px!important;
+        margin-top: 40px!important;
+        margin-right: 100px!important;
+    }     
+}
