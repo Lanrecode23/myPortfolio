@@ -9,7 +9,9 @@ function About() {
             <div class="col-lg-6">
               <div class="welcome_text" data-aos="slide-right">
                 <h4>About Myself</h4>
-                <p>I'm Matthew, a software developer specializing in front-end technologies like React.js. Passionate about creating dynamic, user-friendly web applications, I thrive on solving problems and continuous learning. Outside work, I enjoy Gaming, Football, and exploring new tech. Let's connect and create something amazing!</p>
+                <p>I'm Matthew, a software developer specializing in front-end technologies like React.js. With a strong foundation in HTML, CSS, JavaScript, and responsive design, I build dynamic, user-friendly web applications that deliver seamless user experiences across devices. I'm passionate about problem-solving, constantly learning new techniques, and leveraging modern frameworks like React to develop interactive interfaces
+
+                  Outside of coding, I enjoy gaming, football, and staying up-to-date with the latest trends in tech. I believe in the power of collaboration and innovation, and I'm always eager to connect with like-minded individuals to work on impactful projects. Let's connect and create something amazing together!</p>
               </div>
             </div>
             <div class="col-lg-6">

@@ -125,7 +125,7 @@
 }
 
 .welcome_text p {
-    max-width: 495px;
+    max-width: 1000px;
     line-height: 24px;
     letter-spacing: 1px;
     font-weight: 500;
@@ -322,9 +322,6 @@
 /* ---------------------------------------------END OF THE SKILLS SECTION ----------------------------------------- */
    
 @media screen  and (max-width: 576px) {
-    .welcome_container{
-        padding: 0em 0rem!important;
-    }
     .welcome_text h4 {
         font-size: 24px;
         margin-top: -1em;
@@ -342,12 +339,12 @@
         font-weight: 500;
         color: #000533;
         font-family: "lato", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 40px;
         text-align: justify;
     }
     .welcome_container{
-        padding: 5em 10rem!important;
+        padding: 5em 20rem!important;
     }
     .skills_container{
         display:block;

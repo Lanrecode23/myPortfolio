@@ -115,6 +115,7 @@ ul {
 
   .nav-link {
     padding: 10px 0;
+    font-size: 0.95em!important;
   }
   .navbar-toggler-icon {
     width: 30px !important;
