@@ -16,7 +16,12 @@
 .navbar-toggler {
     border: none !important;
     box-shadow: none !important;
+    width: 40px !important; 
+    height: 40px !important;
 }
+
+
+
 
 ul {
     list-style: none;
@@ -102,4 +107,31 @@ ul {
     color: #FFD700!important;
   } */
  
+  @media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+  }
+  .navbar-toggler-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
   
+  .collapsing {
+    transition: height 0.4s ease !important;
+  }
+  
+  .navbar-collapse {
+    transition: transform 0.5s ease !important;
+    transform: translateX(100%) !important;
+  }
+  
+  .navbar-collapse.show {
+    transform: translateX(0) !important;
+  }
+  
+}
