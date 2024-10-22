@@ -113,8 +113,9 @@
 
   @media screen and (max-width: 576px) {
     .hero_section{
-      padding: 2rem !important;
+      padding: 3rem 2rem 10rem  2rem!important;
       justify-content: center!important;
+      margin: auto;
       align-items: center!important;
       flex-direction: column-reverse!important;
   }
@@ -157,6 +158,9 @@
   .img-fluid{
     width: 30rem!important;
     height: 30rem!important;
+}
+.hero-image img{
+  display: none!important;
 }
   }
   
