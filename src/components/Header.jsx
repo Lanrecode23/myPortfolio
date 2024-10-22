@@ -43,7 +43,6 @@ function Header() {
                                         </svg>
                                     </a>
                                 </li>
-
                                 <li className="icon-content">
                                     <a href="https://github.com/Lanrecode23" aria-label="GitHub" data-social="github">
                                         <div className="filled"></div>
