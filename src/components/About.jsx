@@ -31,6 +31,12 @@ function About() {
                     </div>
                   </div>
                   <div class="skill_item">
+                    <h4>Bootstrap <span class="counter">95</span>%</h4>
+                    <div class="progress bootstrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="skill_item">
                     <h4>Javascript <span class="counter">86</span>%</h4>
                     <div class="progress js">
                       <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
