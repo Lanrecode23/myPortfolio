@@ -5,9 +5,9 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer_content">
-        <ul class="wrapper">
-          <li class="icon facebook">
-            <span class="tooltip">LinkedIn</span>
+        <ul className="wrapper">
+          <li className="icon facebook">
+            <span className="tooltip">LinkedIn</span>
             <a href="https://www.linkedin.com/in/oluwadahunsimatthew/" aria-label="LinkedIn" data-social="linkedin">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +25,8 @@ function Footer() {
               </svg>
             </a>
           </li>
-          <li class="icon twitter">
-            <span class="tooltip">Email</span>
+          <li className="icon twitter">
+            <span className="tooltip">Email</span>
             <a href="mailto:dahunsimatthew23@gmail.com" aria-label="Email" data-social="instagram">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ function Footer() {
             </a>
           </li>
           <li class="icon instagram">
-            <span class="tooltip">Instagram</span>
+            <span className="tooltip">Instagram</span>
             <a href="https://www.instagram.com/dahunsi_matthew/" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

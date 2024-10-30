@@ -7,7 +7,7 @@
 }
 
 .card {
-    width: 17rem!important;
+    width: 18rem!important;
     height: 27rem!important;
     padding: 0.8em;
     margin: auto!important;
@@ -53,7 +53,7 @@
 .project_container{
     justify-content: center!important;
     align-items: center!important;
-    padding: 6em 10em!important;
+    padding: 6em 9em!important;
     background-color: #000!important;
 }
 
