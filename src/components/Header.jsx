@@ -12,7 +12,7 @@ function Header() {
         <div>
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary sticky-top">
                 <Container>
-                    <Link to='/'><Navbar.Brand><img src="/img/logo.png" alt="" /></Navbar.Brand></Link>
+                    <Link to='/'><Navbar.Brand><img src="/img/logo1.png" alt="" /></Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="m-auto">

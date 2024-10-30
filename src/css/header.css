@@ -134,5 +134,8 @@ ul {
   .navbar-collapse.show {
     transform: translateX(0) !important;
   }
+  .navbar-brand img {
+    width: 6rem !important;
+}
   
 }
