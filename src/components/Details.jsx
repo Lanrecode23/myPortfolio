@@ -23,7 +23,7 @@ function Details() {
         <>
             <Header />
             <div className="project_detailPage text-center">
-                <h3>Project Details&nbsp;/&nbsp;<span><Link to="/" id='linkHome'>Home</Link></span></h3>
+                <h3>Project Details&nbsp; &gt; &nbsp;<span><Link to="/" id='linkHome'>Home</Link></span></h3>
             </div>
             <div className="container-fluid details_container p-5">
                 <div className="row row-cols-8">
