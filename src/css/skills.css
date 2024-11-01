@@ -8,7 +8,7 @@
     z-index: 1;
 }
 .welcome_container{
-    padding: 10em 38rem!important;
+    padding: 10em 40rem!important;
 }
 .skills_text h3{
     margin: 2em 0 0.5em 0!important;
@@ -129,6 +129,7 @@
     line-height: 24px;
     letter-spacing: 1px;
     font-weight: 500;
+    text-align: justify;
     color: #000533;
     font-family: "lato", sans-serif;
     font-size: 17px;

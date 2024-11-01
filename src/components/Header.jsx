@@ -6,11 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { Link } from 'react-router-dom';
 import '../css/header.css'
+import { useEffect } from 'react';
 
 function Header() {
     return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary sticky-top">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
                     <Link to='/'><Navbar.Brand><img src="/img/logo1.png" alt="" /></Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -88,7 +88,6 @@ function Header() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
     )
 }
 

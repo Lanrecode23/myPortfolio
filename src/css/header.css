@@ -20,6 +20,11 @@
     height: 40px !important;
 }
 
+.sticky-top.is-sticky {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%)!important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
 
 
 
