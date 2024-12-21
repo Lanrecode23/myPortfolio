@@ -3,21 +3,19 @@
     height: 14rem;
     width: 100%;
     object-fit: cover;
-    border-radius: 1rem 1rem 2rem 2rem;
 }
 
 .card {
     width: 18rem!important;
     height: 27rem!important;
-    padding: 0.8em;
+    padding: 1em;
     margin: auto!important;
     margin-bottom: 2em!important;
     position: relative;
     overflow: hidden; 
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    border-radius: 1rem;
     transition: all 0.5s ease-in-out;
-    border: 4px solid  #f6d365 ;
+    background: #eae6e6;
 }
 .card:hover {
     transform: scale(1.03) !important;
@@ -81,13 +79,13 @@ svg {
 
 .text-title {
     font-weight: 900;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.5;
     font-family: "Space Grotesk", sans-serif!important;
 }
 
 .text-body {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding-bottom: 10px;
     font-family: "Space Grotesk", sans-serif!important;
 }
