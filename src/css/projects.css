@@ -12,12 +12,12 @@
     padding: 0.8em;
     margin: auto!important;
     margin-bottom: 2em!important;
-    background: #fff6f6;
     position: relative;
     overflow: hidden; 
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 1rem;
     transition: all 0.5s ease-in-out;
+    border: 4px solid  #f6d365 ;
 }
 .card:hover {
     transform: scale(1.03) !important;
@@ -114,7 +114,7 @@ svg {
 
 @media screen and (max-width:576px) {
     .card {
-        width: 16rem!important;
+        width: 18rem!important;
     }
     .project_container{
         justify-content: center!important;

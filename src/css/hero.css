@@ -9,9 +9,24 @@
     flex-direction: column!important;
 }
 .img-fluid{
-    width: 50rem!important;
+    width: 35rem!important;
     height: 30rem!important;
 }
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%; 
+  box-shadow: 
+      0 0 20px 10px rgba(255, 215, 0, 0.5), 
+      0 0 30px 20px rgba(255, 215, 0, 0.3), 
+      0 0 40px 30px rgba(255, 215, 0, 0.2); 
+}
+
+
 .hero-content h1 {
     margin-top: 3em !important;
     font-size: 45px !important;

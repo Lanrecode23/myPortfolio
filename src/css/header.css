@@ -26,8 +26,6 @@
 }
 
 
-
-
 ul {
     list-style: none;
   }
@@ -108,10 +106,8 @@ ul {
   .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
     background-color: #FFD700;
   }
-  /* .header_nav i{
-    color: #FFD700!important;
-  } */
- 
+
+
   @media (max-width: 768px) {
   .navbar-nav {
     text-align: center;

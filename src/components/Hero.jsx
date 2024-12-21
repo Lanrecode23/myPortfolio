@@ -31,7 +31,7 @@ function Hero() {
                 </div>
                 <div className="col-md-6">
                     <div className="hero-image">
-                        <img src="/img/hero_img.png" alt="Hero" className="img-fluid w-100" />
+                        <img src="/img/pic.png" alt="Hero" className="img-fluid w-75" />
                     </div>
                 </div>
             </div>
