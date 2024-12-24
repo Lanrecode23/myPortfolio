@@ -19,7 +19,7 @@
   background:  #FFD700;
   width: 24rem!important;
  height: 24rem!important;
-  border-radius: 50%; 
+  border-radius: 100%; 
   margin-top: 4rem!important;
   margin-left: 8rem!important;
 }
@@ -29,7 +29,7 @@
  width: 28rem!important;
  height: 28.7rem!important;
  top: -80px;
- border-radius: 43% !important;
+ border-radius: 42% !important;
       
 }
 
