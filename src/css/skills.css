@@ -300,7 +300,7 @@
     font-family: "Asap", sans-serif !important;
    }
    .card__content p{
-    text-align: center;
+    text-align: left;
     color: #fff;
     font-size: 16px;
     line-height: -10rem;

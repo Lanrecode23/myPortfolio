@@ -8,7 +8,7 @@ function Hero() {
                 <div className="col-md-6">
                     <div className="hero-content mt-lg-5 mt-sm-0">
                         <h1>
-                            Hi, There<br /> My Name is Matthew
+                            Hi, There ! <br /> My Name is Matthew 
                         </h1>
                         <div className='typed'><TypedText /></div>
                     </div>
@@ -31,7 +31,7 @@ function Hero() {
                 </div>
                 <div className="col-md-6">
                     <div className="hero-image">
-                        <img src="/img/pic.png" alt="Hero" className="img-fluid w-75" />
+                        <img src="/img/pic.png" alt="Hero" className="img-fluid" />
                     </div>
                 </div>
             </div>
