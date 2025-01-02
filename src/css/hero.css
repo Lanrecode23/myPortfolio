@@ -141,14 +141,27 @@
       align-items: center!important;
       flex-direction: column-reverse!important;
   }
-  .img-fluid{
-      width: 50rem!important;
-      height: 30rem!important;
-      margin-top: -6rem!important;
-      margin-bottom: 3rem!important;
+  .hero-image {
+    position: relative;
+    background:  #FFD700;
+    width: 18rem!important;
+   height: 17rem!important;
+    border-radius: 100%; 
+    margin-top: 4rem!important;
+    margin-left: auto!important;
+    margin-right: auto !important;
+  }
+  
+  .hero-image img {
+   position: relative;
+   width: 18rem!important;
+   height: 22rem!important;
+   top: -80px;
+   border-radius: 42% !important;
+        
   }
   .hero-content h1 {
-      margin-top: 3em !important;
+      margin-top: 1em !important;
       font-size: 26px !important;
       text-align: center!important;
       margin-bottom: 1.4rem !important;
@@ -179,13 +192,8 @@
     padding: 10px 6px!important;
     margin: auto!important;
   }
-  .img-fluid{
-    width: 30rem!important;
-    height: 30rem!important;
-}
-.hero-image img{
-  display: none!important;
-}
+
+
   }
   
   
