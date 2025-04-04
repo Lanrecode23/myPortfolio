@@ -33,7 +33,7 @@ const Data = [
             "details": "An internet community for all schools in the public and private sectors in Lagos State. I worked on the project by implementing HTML, CSS, Bootstrap, and a touch of JavaScript to enhance responsiveness and interactivity.",
             "link": "https://lagosschoolsonline.com/",
             "github": "https://github.com/Lanrecode23/",
-            "techStack": ["HTML", "CSS", "Bootstrap", "JavaScript"]    
+            "techStack": ["HTML", " CSS ", " Bootstrap ", " JavaScript "]    
     },
     {
         
