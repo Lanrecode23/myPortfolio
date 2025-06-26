@@ -113,7 +113,7 @@ svg {
 
 @media screen and (max-width:576px) {
     .card {
-        width: 18rem!important;
+        width: 20rem!important;
     }
     .project_container{
         justify-content: center!important;
