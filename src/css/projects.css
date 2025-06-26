@@ -121,13 +121,22 @@ svg {
         padding: 6em 2em!important;
     }
     .project_name{
-        font-size: 22px!important;
+        font-size: 24px!important;
     }
+    .underline{
+    background-color: #FFD700;
+    width: 8rem;
+    height: 0.2rem;
+    margin-bottom: 3rem!important;
+    margin: auto;
+}
     .text-title {
-        font-weight: 700;
-        font-size: 1em;
+        font-weight: 500;
+        font-size: 0.9em;
+         font-family: "Ubuntu", sans-serif !important;
     }
     .text-body{
-        font-size: 0.85em;
+        font-size: 0.8em;
+        font-family: "Ubuntu", sans-serif !important;
     }
 }
