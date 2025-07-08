@@ -3,6 +3,7 @@ import '../css/skills.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 function Skills() {
     useEffect(() => {
         AOS.init({
@@ -116,6 +117,8 @@ function Skills() {
                 </div>
             </div>
         </section>
+
+        
     )
 }
 
