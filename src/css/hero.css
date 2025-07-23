@@ -158,6 +158,7 @@
    height: 21.9rem!important;
    top: -80px;
    border-radius: 42% !important;
+   border-bottom: none !important;
         
   }
   .hero-content h1 {

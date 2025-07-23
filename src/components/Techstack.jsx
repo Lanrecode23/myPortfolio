@@ -29,7 +29,7 @@ function Techstack() {
           <img src="https://th.bing.com/th/id/R.1e3f4e0b519f5057795f186bd4224fb8?rik=vdWvi0sovMbzJA&riu=http%3a%2f%2flogonoid.com%2fimages%2fcss3-logo.png&ehk=1834Yvb9mgURw5ej9KtjAZvXXTxCWs8bA08xVL%2ftEBU%3d&risl=&pid=ImgRaw&r=0" alt="Image 2" className='tech_img' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" alt="Image 3" className='tech_img' />
+          <img src="https://static.vecteezy.com/system/resources/previews/012/697/298/non_2x/3d-javascript-logo-design-free-png.png" alt="Image 3" className='tech_img' />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://logodix.com/logo/2062444.png" alt="Image 4" className='tech_img' />
