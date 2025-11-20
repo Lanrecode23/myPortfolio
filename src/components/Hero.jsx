@@ -37,7 +37,7 @@ function Hero() {
                 {/* Image Section */}
                 <div className="col-md-6 text-center">
                     <div className="hero-image">
-                        <img src="/img/pic.png" alt="Hero" className="img-fluid" />
+                        <img src="/img/pics.png" alt="Hero" className="img-fluid" />
                     </div>
                 </div>
             </div>
